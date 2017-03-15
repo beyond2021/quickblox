@@ -1,0 +1,94 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Crashlytics (3.8.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - QMCVDevelopment (0.4.1):
+    - QMCVDevelopment/Categories (= 0.4.1)
+    - QMCVDevelopment/Protocols (= 0.4.1)
+    - QMCVDevelopment/QMChatDataSource (= 0.4.1)
+    - QMCVDevelopment/QMChatLocationSnapshotter (= 0.4.1)
+    - QMCVDevelopment/Sections (= 0.4.1)
+    - QMCVDevelopment/Utils (= 0.4.1)
+    - QMCVDevelopment/Views (= 0.4.1)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/Categories (0.4.1):
+    - QMCVDevelopment/QMChatLocationSnapshotter
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/Protocols (0.4.1):
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/QMChatDataSource (0.4.1):
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/QMChatLocationSnapshotter (0.4.1):
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/Sections (0.4.1):
+    - QMCVDevelopment/QMChatDataSource
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/Utils (0.4.1):
+    - QMCVDevelopment/Categories
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMCVDevelopment/Views (0.4.1):
+    - QMCVDevelopment/Categories
+    - QMCVDevelopment/Protocols
+    - QMCVDevelopment/Utils
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (> 1.13)
+  - QMServicesDevelopment (0.4.6):
+    - Bolts (>= 1.5.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SearchEmojiOnString (1.1.0)
+  - SVProgressHUD (1.1.3)
+  - TTTAttributedLabel (2.0.0)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - QMCVDevelopment (from `git@github.com:QuickBlox/QMChatViewController-ios.git`, commit `463746b20b7c0964f51fc2f976fef42b0be186c5`)
+  - QMServicesDevelopment (from `git@github.com:QuickBlox/q-municate-services-ios.git`, commit `a016c54ad2c8940021df5712e6d886d2f70f8648`)
+  - SearchEmojiOnString
+  - SVProgressHUD (~> 1.1.3)
+
+EXTERNAL SOURCES:
+  QMCVDevelopment:
+    :commit: 463746b20b7c0964f51fc2f976fef42b0be186c5
+    :git: git@github.com:QuickBlox/QMChatViewController-ios.git
+  QMServicesDevelopment:
+    :commit: a016c54ad2c8940021df5712e6d886d2f70f8648
+    :git: git@github.com:QuickBlox/q-municate-services-ios.git
+
+CHECKOUT OPTIONS:
+  QMCVDevelopment:
+    :commit: 463746b20b7c0964f51fc2f976fef42b0be186c5
+    :git: git@github.com:QuickBlox/QMChatViewController-ios.git
+  QMServicesDevelopment:
+    :commit: a016c54ad2c8940021df5712e6d886d2f70f8648
+    :git: git@github.com:QuickBlox/q-municate-services-ios.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Crashlytics: 2b6dbe138a42395577cfa73dfa1aa7248cadf39e
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  QMCVDevelopment: de89bd5257b8cb978dc302859a044063d271343c
+  QMServicesDevelopment: b651fa8d2983470414b493d9590d7d5d430df947
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SearchEmojiOnString: 7344970449603396555d058a0dc297b5471bafa7
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+
+PODFILE CHECKSUM: 753077839b04c9ae86a9db8516925d8c7dbc2981
+
+COCOAPODS: 1.2.0.beta.3
